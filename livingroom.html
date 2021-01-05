@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Author: Sanjay Kumar, 000811237 -->
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta charset= "UTF-8">
+		<title>SandyandLeslie'sapartment</title>
+		<link rel="stylesheet" href="appartment_layout.css" />
+		<style>
+			.kitchen {
+				text-align: center;
+			}
+			footer{
+				margin-top: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Sandy and Leslie's apartment</h1>
+			<figure>
+				<figcaption>click a room for detailed view</figcaption>
+				<p><img src="images/apartmentfloorplan.jpg" alt="housedesign" usemap="#map" id="map"></p>
+			</figure>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="appartment.html">Appartment</a></li>
+				<li><a href="bedroom.html">Bedroom1</a></li>
+				<li><a href="bedroom.html">Bedroom2</a></li>
+				<li><a href="diningroom.html">Dining room</a></li>
+				<li><a href="kitchen.html">Kitchen</a></li>
+				<li><a href="livingroom.html">Living room</a></li>
+			</ul>
+		</nav>
+		<map name="map">
+			<area shape="rect" coords="0,3,190,155" alt="bedroom1" title="bedroom1" href="bedroom.html">
+			<area shape="rect" coords="204,5,335,130" alt="bedroom2" title="bedroom2" href="bedroom.html">
+			<area shape="circle" coords="412,135,40" alt="diningroom" title="dinigroom" href="diningroom.html">
+			<area shape="rect" coords="284,244,391,392" alt="kitchen" title="kitchen" href="kitchen.html">
+			<area shape="poly" coords="417,188,488,162,539,240,475,332,420,277" alt="livingroom" title="livingroom" href="livingroom.html">
+			
+		</map>
+		<figure class="kitchen">
+			<h2>Living Room</h2>
+				<p><img src="images/livingroom_lg.jpg" alt="living room image">
+				</p>
+		</figure>
+		<h2>Appartment services:</h2>
+			<table class="schedule">
+				<thead>
+					<tr>
+						<th>Services</th>
+						<th>Days/Hours</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>Gym</th>
+						<td rowspan="2">Monday-Friday 6am-10pm, Saturday 8am-8pm, Sunday 8am-5pm</td>
+					</tr>
+					<tr>
+						<th>Pool</th>
+					</tr>
+					<tr>
+						<th>Laundry</th>
+						<td>24/7</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="2">
+							Please do not allow people you do not know to use these facilities
+						</td>
+					</tr>
+				</tfoot>
+			</table>
+		<footer>
+			for more information contact: <a href="mailto:apartment@example.com">sandy@appartment.com</a><br/>
+			&copy;Sandy and leslie 2020
+		</footer>
+	</body>
+</html>

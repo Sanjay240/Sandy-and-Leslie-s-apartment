@@ -1,0 +1,55 @@
+/* Author: Sanjay Kumar, 000811237*/
+
+@media only screen and (max-width: 600px){
+	
+	body{
+		grid-template-columns: 1fr;
+	}
+	header figure{
+		display: none;
+	}
+	.header{
+		grid-column: 1;
+		grid-row:1;
+	}
+	.firstbox{
+		grid-column: 1;
+		grid-row: 2;
+	}
+	.secondbox{
+		grid-column: 1;
+		grid-row: 3;
+	}
+	.thirdbox{
+		grid-column: 1;
+		grid-row: 4;
+	}
+	.fourthbox{
+		grid-column:1;
+		grid-row: 5;
+	}
+	.fifthbox{
+		grid-column: 1;
+		grid-row: 6;
+	}
+	.footer{
+		grid-column: 1;
+		grid-row: 7;
+	}
+	nav ul{
+		flex-direction: column;
+		text-align: center;
+		
+	}
+	nav a{
+		border-top: solid 1px grey; 
+		
+	}
+	nav li{
+		margin: 10px;
+	}
+	nav .dec{
+		display: none;
+	}
+	
+}

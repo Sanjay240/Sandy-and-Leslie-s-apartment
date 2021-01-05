@@ -1,0 +1,9 @@
+/* Author: Sanjay Kumar, 000811237 */
+
+
+img, a, ul li {
+	display: none;
+}
+@page{
+	size: 8.5in 11in;
+}
